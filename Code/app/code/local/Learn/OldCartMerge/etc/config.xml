@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Learn_OldCartMerge>
+            <version>1.0.0</version>
+        </Learn_OldCartMerge>
+    </modules>
+
+    <global>
+        <models>
+            <checkout>
+                <rewrite>
+                    <session>Learn_OldCartMerge_Model_Session</session>
+                </rewrite>
+            </checkout>
+        </models>
+    </global>
+    
+</config>
